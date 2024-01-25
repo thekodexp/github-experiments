@@ -1,0 +1,17 @@
+name: Deployer
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    
+    steps:
+    - name: build
+      run: |
+        echo "Building"
+        sleep 3m
