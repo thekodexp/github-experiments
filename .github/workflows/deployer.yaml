@@ -1,10 +1,12 @@
-name: Deployer
+name: QA Deployer
 
 on:
   push:
     branches:
       - main
-  merge_group:
+
+concurrency:
+  group: qa-deployment
   
 jobs:
   build:
