@@ -18,4 +18,4 @@ jobs:
     - name: build
       run: |
         echo "Building"
-        sleep 3m
+        sleep 1m
