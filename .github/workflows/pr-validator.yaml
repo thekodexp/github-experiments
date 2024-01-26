@@ -18,7 +18,7 @@ jobs:
         run: |
           echo "${GITHUB_HEAD_REF}"
 
-      - name: Validate
+      - name: Validate ${{ github.head_ref }}
         run: |
           echo "Validating..."
           sleep 1m
