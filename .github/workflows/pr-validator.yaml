@@ -17,4 +17,4 @@ jobs:
       - name: Validate
         run: |
           echo "Validating..."
-          sleep 2m
+          sleep 1m
